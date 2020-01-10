@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- stable
+deploy:
+  provider: heroku
+  api_key:
+    secure: "qERUY76xNZrKsaKQU21gZhfnARXBLjMOb6qUQ00jRdEZO78/ColSKkiJTJQ4swU9y5yBhCsW6HPbZFPMOU9goTBt0ZibK70yhl0YddNqdwjzrGnscyuDaf1Ss7ewnX0/HEOcWiSvla4ERZgOyZ9SmSj06Z3+A787bcR3Y8D1CN9QuZX6mLqruftiVDLizzFLG1Cn+Bh1m3YirMElcKdQiH3JNmSEgW8/24KM1Jk72EaC0bXzJyrW5YrmspzBqiAJMMxrHjl6vuEIfsn8xjP+vW6xfY4NPchc+9Xfa+vSu97X9FxeH90C7QEz8sJoxiEAZpsX/oSgXZBlMr3acU/rEFTpu30I2sTV/pqjKp/lkKyQe1cQLBMti1SRuMUlt72l2LdacRp7ol63R1LzxOAb4QGZaicMS5FNCzOPFggECqq94dJKI6ms63dCPeTGN22/suWwz7ZT0LEtDY1AG16S0RuUt2Rzv4wGayaTfc9Xg0bbLNspZ1zpXAWJXsYZt3K96RfcmL6wRnANDvid/mZC8nbfuK5OAZtoLOywTmZ2wVT2qyklbP19Gixe2kvFs8DVPghk3YCatjViHZ9EUrh/pWndjFFcRg+q1Z9fXcx0kpPRXplKejSP4VPbt/iR4iMPsWf4WtiKY26kirksN2xNUK/e3qm1hpfMgyyha7NuKwo="
+  app: stormy-refuge-19383
+  on:
+    repo: Winyumi/travis-github-heroku
