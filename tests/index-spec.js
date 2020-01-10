@@ -1,7 +1,7 @@
 // import { describe } from "mocha";
 
 const expect = require('chai').expect;
-const server = require('../server');
+const server = require('../index');
 
 console.log("test file, server = \n", server);
 
